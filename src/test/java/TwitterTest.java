@@ -39,6 +39,9 @@ public void setupTest() {
         WebElement logIn = webDriver.findElement(By.xpath("/html//div[@id='doc']//form[@action='https://twitter.com/sessions']/input[@value='Log in']"));
         logIn.click();  //logiranje
         Thread.sleep(1750); //izbjegavanje zakljucavanja racuna
+        WebElement phoneNumber = webDriver.findElement(By.xpath("//*[@id=\"challenge_response\"]"));
+        phoneNumber.sendKeys("+385989509405"); // slanje broja mobitela radi potvrde
+        webDriver.findElement(By.xpath("//*[@id=\"email_challenge_submit\"]")).click();
         //kasnije moguce prebaciti u @BeforeMethod kako se ne bi morala svaki put zvati klasa testLogin()
     }
 
@@ -113,11 +116,13 @@ public void setupTest() {
 
         webDriver.navigate().to(ELONMUSK_URL);
         Thread.sleep(1750);
-        WebElement followBar = webDriver.findElement(By.xpath("/html//div[@id='page-container']/div[1]/div[@class='ProfileCanopy-inner']//div[@role='navigation']/ul[@class='ProfileNav-list']/li[6]/div/div/span[2]/button[1]"));
+        WebElement followBar = webDriver.findElement(By.xpath("/html//div[@id='page-container']/div[1]/div[@class='ProfileCanopy-inner']//div[@role='navigation']/ul[@class='ProfileNav-list']/li[6]/div/div/span[2]/button[1]/span[.='Follow']"));
         followBar.click();
+        Thread.sleep(1750);
+        WebElement unfollowBar = webDriver.findElement(By.xpath("//*[@id=\"page-container\"]/div[1]/div/div[2]/div/div/div[2]/div/div/ul/li[6]/div/div/span[2]/button[3]"));
+        unfollowBar.click();
         Thread.sleep(7500);
         webDriver.quit();
 
-        //'?
     }
 }

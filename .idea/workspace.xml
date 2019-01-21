@@ -4,6 +4,7 @@
     <list default="true" id="f6a0fcad-db18-4b9d-92f7-7a355cd600a3" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/TwitterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TwitterTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/TwitterTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/TwitterTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -14,15 +15,24 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/TwitterTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="717">
-              <caret line="120" column="12" selection-start-line="120" selection-start-column="12" selection-end-line="120" selection-end-column="12" />
+            <state relative-caret-position="306">
+              <caret line="27" column="40" lean-forward="true" selection-start-line="27" selection-start-column="40" selection-end-line="27" selection-end-column="40" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" selection-start-line="11" selection-end-line="31" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -60,7 +70,7 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1273" />
+    <option name="x" value="-7" />
     <option name="width" value="1294" />
     <option name="height" value="1417" />
   </component>
@@ -95,18 +105,24 @@
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Bartulovic_projekt_testiranje" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Bartulovic_projekt_testiranje" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548075342041" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548101431495" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Giphy_Martin" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -122,7 +138,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.TwitterTest">
+  <component name="RunManager" selected="TestNG.TwitterTest.testFollow">
     <configuration name="TwitterTest" type="TestNG" nameIsGenerated="true">
       <module name="Bartulovic_projekt_testiranje" />
       <option name="SUITE_NAME" value="" />
@@ -153,11 +169,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TwitterTest.testLogout" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TwitterTest.testLogin" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Bartulovic_projekt_testiranje" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="TwitterTest" />
-      <option name="METHOD_NAME" value="testLogout" />
+      <option name="METHOD_NAME" value="testLogin" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -203,11 +219,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.TwitterTest.testTweet" />
         <item itemvalue="TestNG.TwitterTest.testFollow" />
+        <item itemvalue="TestNG.TwitterTest.testLogin" />
+        <item itemvalue="TestNG.TwitterTest.testTweet" />
         <item itemvalue="TestNG.TwitterTest.testSearch" />
         <item itemvalue="TestNG.TwitterTest.testPoll" />
-        <item itemvalue="TestNG.TwitterTest.testLogout" />
       </list>
     </recent_temporary>
   </component>
@@ -221,100 +237,102 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1548064065884</updated>
-      <workItem from="1548064071682" duration="9616000" />
+      <workItem from="1548064071682" duration="9752000" />
+      <workItem from="1548093890921" duration="931000" />
+      <workItem from="1548094839892" duration="3556000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TwitterTest_testPoll - 2019.01.21 at 13h 01m 36s.xml">
-      <configuration name="TwitterTest.testPoll" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TwitterTest_testPoll - 2019.01.21 at 13h 02m 20s.xml">
-      <configuration name="TwitterTest.testPoll" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TwitterTest_testPoll - 2019.01.21 at 13h 02m 44s.xml">
-      <configuration name="TwitterTest.testPoll" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TwitterTest_testPoll - 2019.01.21 at 13h 03m 44s.xml">
-      <configuration name="TwitterTest.testPoll" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TwitterTest_testSearch - 2019.01.21 at 13h 09m 54s.xml">
-      <configuration name="TwitterTest.testSearch" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TwitterTest_testFollow - 2019.01.21 at 13h 12m 26s.xml">
+    <history-entry file="TwitterTest_testFollow - 2019.01.21 at 19h 08m 20s.xml">
       <configuration name="TwitterTest.testFollow" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TwitterTest_testTweet - 2019.01.21 at 13h 15m 27s.xml">
-      <configuration name="TwitterTest.testTweet" configurationId="TestNG" />
+    <history-entry file="TwitterTest_testFollow - 2019.01.21 at 19h 11m 52s.xml">
+      <configuration name="TwitterTest.testFollow" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TwitterTest_testTweet - 2019.01.21 at 13h 16m 02s.xml">
-      <configuration name="TwitterTest.testTweet" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TwitterTest_testTweet - 2019.01.21 at 13h 17m 21s.xml">
-      <configuration name="TwitterTest.testTweet" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TwitterTest - 2019.01.21 at 13h 48m 58s.xml">
+    <history-entry file="TwitterTest - 2019.01.21 at 19h 15m 25s.xml">
       <configuration name="TwitterTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TwitterTest_testFollow - 2019.01.21 at 19h 17m 14s.xml">
+      <configuration name="TwitterTest.testFollow" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TwitterTest_testFollow - 2019.01.21 at 19h 18m 24s.xml">
+      <configuration name="TwitterTest.testFollow" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TwitterTest_testFollow - 2019.01.21 at 19h 18m 47s.xml">
+      <configuration name="TwitterTest.testFollow" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TwitterTest_testFollow - 2019.01.21 at 19h 19m 37s.xml">
+      <configuration name="TwitterTest.testFollow" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TwitterTest_testFollow - 2019.01.21 at 19h 19m 54s.xml">
+      <configuration name="TwitterTest.testFollow" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TwitterTest_testLogin - 2019.01.21 at 20h 09m 23s.xml">
+      <configuration name="TwitterTest.testLogin" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TwitterTest_testFollow - 2019.01.21 at 20h 09m 51s.xml">
+      <configuration name="TwitterTest.testFollow" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9616000" />
+    <option name="totallyTimeSpent" value="14239000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1273" y="0" width="1294" height="1417" extended-state="0" />
+    <frame x="-7" y="0" width="1294" height="1417" extended-state="0" />
     <layout>
-      <window_info id="Image Layers" />
-      <window_info id="Designer" />
-      <window_info id="UI Designer" />
-      <window_info id="Capture Tool" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13533226" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13776337" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Messages" weight="0.32869297" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.3317757" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.35034803" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.35124612" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Maven" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Database" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32946634" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32869297" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Maven" order="6" />
+      <window_info anchor="right" id="Capture Analysis" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="28" column="18" selection-start-line="28" selection-start-column="18" selection-end-line="28" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Bartulovic_projekt_testiranje.iml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/test.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" selection-start-line="11" selection-end-line="31" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/TwitterTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="717">
-          <caret line="120" column="12" selection-start-line="120" selection-start-column="12" selection-end-line="120" selection-end-column="12" />
+        <state relative-caret-position="306">
+          <caret line="27" column="40" lean-forward="true" selection-start-line="27" selection-start-column="40" selection-end-line="27" selection-end-column="40" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
