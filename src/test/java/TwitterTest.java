@@ -117,5 +117,7 @@ public void setupTest() {
         followBar.click();
         Thread.sleep(7500);
         webDriver.quit();
+
+        //'?
     }
 }
