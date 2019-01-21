@@ -13,8 +13,9 @@ public class TwitterTest {
     public String twitterURL = "http://www.twitter.com";
     public String ELONMUSK_URL = "https://twitter.com/elonmusk";
 
-    public String username = "testiranye";
-    public String password = "testiranje098ferit";
+    public String username = "***";
+    public String password = "***";
+    public String phoneNumber = "***";
 
     double random = Math.random() * 250000 + 1;
 
@@ -39,26 +40,22 @@ public void setupTest() {
         WebElement logIn = webDriver.findElement(By.xpath("/html//div[@id='doc']//form[@action='https://twitter.com/sessions']/input[@value='Log in']"));
         logIn.click();  //logiranje
         Thread.sleep(1750); //izbjegavanje zakljucavanja racuna
-        WebElement phoneNumber = webDriver.findElement(By.xpath("//*[@id=\"challenge_response\"]"));
-        phoneNumber.sendKeys("+385989509405"); // slanje broja mobitela radi potvrde
+        WebElement phoneNumberBox = webDriver.findElement(By.xpath("//*[@id=\"challenge_response\"]"));
+        phoneNumberBox.sendKeys(phoneNumber); // slanje broja mobitela radi potvrde
         webDriver.findElement(By.xpath("//*[@id=\"email_challenge_submit\"]")).click();
         //kasnije moguce prebaciti u @BeforeMethod kako se ne bi morala svaki put zvati klasa testLogin()
     }
 
     @Test
     public void testTweet() throws InterruptedException {
-        testLogin(); // logiranje
+            testLogin(); // logiranje
 
-
-            WebElement tweetTextBox = webDriver.findElement((By.xpath("/html//div[@id='tweet-box-home-timeline']")));
-            tweetTextBox.sendKeys("Alea iacta est!" + " " + random); //upisivanje teksta
-            WebElement sendTweetBox = webDriver.findElement((By.xpath("/html//div[@id='timeline']//form[@action='//upload.twitter.com/i/tweet/create_with_media.iframe']//div[@class='TweetBoxToolbar-tweetButton tweet-button']/button[@type='button']/span[@class='button-text tweeting-text']")));
-            sendTweetBox.click(); //slanje teksta
-            Thread.sleep(7500);
-
-
-
-}
+        WebElement tweetTextBox = webDriver.findElement((By.xpath("/html//div[@id='tweet-box-home-timeline']")));
+        tweetTextBox.sendKeys("Alea iacta est!" + " " + random); //upisivanje teksta
+        WebElement sendTweetBox = webDriver.findElement((By.xpath("/html//div[@id='timeline']//form[@action='//upload.twitter.com/i/tweet/create_with_media.iframe']//div[@class='TweetBoxToolbar-tweetButton tweet-button']/button[@type='button']/span[@class='button-text tweeting-text']")));
+        sendTweetBox.click(); //slanje teksta
+        Thread.sleep(7500);
+    }
 
     @Test
     public void testPoll() throws  InterruptedException{
@@ -82,8 +79,6 @@ public void setupTest() {
         sendTweetBox.click(); //slanje ankete
         Thread.sleep(7500);
         webDriver.quit();
-
-
     }
 
     @Test
@@ -101,28 +96,42 @@ public void setupTest() {
 
     @Test
     public void testSearch() throws  InterruptedException {
-        testLogin();
+        testLogin(); // logiranje
 
         WebElement searchBar = webDriver.findElement(By.xpath("/html//input[@id='search-query']"));
-        searchBar.sendKeys("Elon Musk");
+        searchBar.sendKeys("Elon Musk"); //unosenje pojma u trazilicu
         WebElement searchButton = webDriver.findElement(By.xpath("//form[@id='global-nav-search']//button[@type='submit']"));
-        searchButton.click();
+        searchButton.click(); //pretrazivanje
+        Thread.sleep(1500);
+        webDriver.quit();
+    }
+
+    @Test void testTweetsAndReplies() throws  InterruptedException {
+        testSearch(); // logiranje
+
+        WebElement tweetsAndReplies = webDriver.findElement(By.xpath("//*[@id=\"page-container\"]/div[2]/div/div/div[2]/div/div[2]/div[1]/div[2]/ul/li[2]"));
+        tweetsAndReplies.click(); //prijelaz na twittove i odgovore
+        Thread.sleep(1750);
+        WebElement media = webDriver.findElement(By.xpath("//*[@id=\"page-container\"]/div[2]/div/div/div[2]/div/div[2]/div[1]/div[2]/ul/li[3]"));
+        media.click(); //prijelaz na multimedijalne twittove
         Thread.sleep(7500);
         webDriver.quit();
     }
 
-    @Test void testFollow() throws  InterruptedException {
-        testLogin();
+    @Test void testMessage() throws InterruptedException {
+        testLogin(); // logiranje
 
-        webDriver.navigate().to(ELONMUSK_URL);
-        Thread.sleep(1750);
-        WebElement followBar = webDriver.findElement(By.xpath("/html//div[@id='page-container']/div[1]/div[@class='ProfileCanopy-inner']//div[@role='navigation']/ul[@class='ProfileNav-list']/li[6]/div/div/span[2]/button[1]/span[.='Follow']"));
-        followBar.click();
-        Thread.sleep(1750);
-        WebElement unfollowBar = webDriver.findElement(By.xpath("//*[@id=\"page-container\"]/div[1]/div/div[2]/div/div/div[2]/div/div/ul/li[6]/div/div/span[2]/button[3]"));
-        unfollowBar.click();
-        Thread.sleep(7500);
-        webDriver.quit();
-
+        WebElement message = webDriver.findElement(By.xpath("//*[@id=\"global-actions\"]/li[3]/a"));
+        message.click(); //prijelaz na poruke
     }
+
+    @Test void testNotifications() throws  InterruptedException{
+        testLogin(); // logiranje
+
+        WebElement notifications = webDriver.findElement(By.xpath("//*[@id=\"global-actions\"]/li[2]/a"));
+        notifications.click(); //prijelaz na obavjesti
+    }
+
+
+
 }

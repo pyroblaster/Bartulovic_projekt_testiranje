@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f6a0fcad-db18-4b9d-92f7-7a355cd600a3" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bartulovic_projekt_testiranje.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Twitter_projekt_testiranje.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TwitterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TwitterTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/TwitterTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/TwitterTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -20,11 +19,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/TwitterTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="306">
-              <caret line="27" column="40" selection-start-line="27" selection-start-column="40" selection-end-line="27" selection-end-column="40" />
+              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -32,11 +31,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
+            <state relative-caret-position="102">
+              <caret line="6" column="39" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="39" />
             </state>
           </provider>
         </entry>
@@ -55,14 +54,20 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>Bar</find>
+      <find>bart</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/test/java/TwitterTest.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/TwitterTest.java" />
       </list>
     </option>
   </component>
@@ -84,25 +89,54 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="Bartulovic_projekt_testiranje" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Bartulovic_projekt_testiranje" type="462c0819:PsiDirectoryNode" />
+              <item name="Twitter_projekt_testiranje" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Twitter_projekt_testiranje" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Twitter_projekt_testiranje" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Twitter_projekt_testiranje" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Twitter_projekt_testiranje" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Twitter_projekt_testiranje" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Twitter_projekt_testiranje" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Twitter_projekt_testiranje" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Twitter_projekt_testiranje" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Twitter_projekt_testiranje" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Twitter_projekt_testiranje" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Twitter_projekt_testiranje" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="generated-test-sources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548106070340" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548107980310" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -119,7 +153,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.TwitterTest.testFollow">
+  <component name="RunManager" selected="TestNG.TwitterTest">
     <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
       <module name="Twitter_projekt_testiranje" />
       <option name="VM_PARAMETERS" />
@@ -185,6 +219,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TwitterTest.testAllInOne" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Twitter_projekt_testiranje" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TwitterTest" />
+      <option name="METHOD_NAME" value="testAllInOne" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TwitterTest.testFollow" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Twitter_projekt_testiranje" />
       <option name="PACKAGE_NAME" value="" />
@@ -197,11 +243,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TwitterTest.testLogin" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TwitterTest.testMessage" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Twitter_projekt_testiranje" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="TwitterTest" />
-      <option name="METHOD_NAME" value="testLogin" />
+      <option name="METHOD_NAME" value="testMessage" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -209,11 +255,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TwitterTest.testPoll" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TwitterTest.testNotifications" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Twitter_projekt_testiranje" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="TwitterTest" />
-      <option name="METHOD_NAME" value="testPoll" />
+      <option name="METHOD_NAME" value="testNotifications" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -221,23 +267,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TwitterTest.testSearch" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TwitterTest.testTweetsAndReplies" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Twitter_projekt_testiranje" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="TwitterTest" />
-      <option name="METHOD_NAME" value="testSearch" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TwitterTest.testTweet" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Twitter_projekt_testiranje" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TwitterTest" />
-      <option name="METHOD_NAME" value="testTweet" />
+      <option name="METHOD_NAME" value="testTweetsAndReplies" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -247,11 +281,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.TwitterTest.testAllInOne" />
+        <item itemvalue="TestNG.TwitterTest.testNotifications" />
+        <item itemvalue="TestNG.TwitterTest.testMessage" />
+        <item itemvalue="TestNG.TwitterTest.testTweetsAndReplies" />
         <item itemvalue="TestNG.TwitterTest.testFollow" />
-        <item itemvalue="TestNG.TwitterTest.testLogin" />
-        <item itemvalue="TestNG.TwitterTest.testTweet" />
-        <item itemvalue="TestNG.TwitterTest.testSearch" />
-        <item itemvalue="TestNG.TwitterTest.testPoll" />
       </list>
     </recent_temporary>
   </component>
@@ -270,48 +304,50 @@
       <workItem from="1548094839892" duration="3556000" />
       <workItem from="1548101646172" duration="44000" />
       <workItem from="1548105987216" duration="92000" />
+      <workItem from="1548106117769" duration="1698000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TwitterTest_testFollow - 2019.01.21 at 19h 08m 20s.xml">
-      <configuration name="TwitterTest.testFollow" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TwitterTest_testFollow - 2019.01.21 at 19h 11m 52s.xml">
-      <configuration name="TwitterTest.testFollow" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TwitterTest - 2019.01.21 at 19h 15m 25s.xml">
-      <configuration name="TwitterTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TwitterTest_testFollow - 2019.01.21 at 19h 17m 14s.xml">
-      <configuration name="TwitterTest.testFollow" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TwitterTest_testFollow - 2019.01.21 at 19h 18m 24s.xml">
-      <configuration name="TwitterTest.testFollow" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TwitterTest_testFollow - 2019.01.21 at 19h 18m 47s.xml">
-      <configuration name="TwitterTest.testFollow" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TwitterTest_testFollow - 2019.01.21 at 19h 19m 37s.xml">
-      <configuration name="TwitterTest.testFollow" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TwitterTest_testFollow - 2019.01.21 at 19h 19m 54s.xml">
-      <configuration name="TwitterTest.testFollow" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TwitterTest_testLogin - 2019.01.21 at 20h 09m 23s.xml">
-      <configuration name="TwitterTest.testLogin" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="TwitterTest_testFollow - 2019.01.21 at 20h 09m 51s.xml">
       <configuration name="TwitterTest.testFollow" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="TwitterTest - 2019.01.21 at 22h 33m 56s.xml">
+      <configuration name="TwitterTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TwitterTest_testFollow - 2019.01.21 at 22h 35m 29s.xml">
+      <configuration name="TwitterTest.testFollow" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TwitterTest_testFollow - 2019.01.21 at 22h 36m 11s.xml">
+      <configuration name="TwitterTest.testFollow" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TwitterTest_testTweetsAndReplies - 2019.01.21 at 22h 38m 28s.xml">
+      <configuration name="TwitterTest.testTweetsAndReplies" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TwitterTest_testMessage - 2019.01.21 at 22h 41m 29s.xml">
+      <configuration name="TwitterTest.testMessage" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TwitterTest_testNotifications - 2019.01.21 at 22h 43m 39s.xml">
+      <configuration name="TwitterTest.testNotifications" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TwitterTest_testAllInOne - 2019.01.21 at 22h 47m 26s.xml">
+      <configuration name="TwitterTest.testAllInOne" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TwitterTest_testAllInOne - 2019.01.21 at 22h 48m 22s.xml">
+      <configuration name="TwitterTest.testAllInOne" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TwitterTest - 2019.01.21 at 22h 53m 28s.xml">
+      <configuration name="TwitterTest" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14375000" />
+    <option name="totallyTimeSpent" value="16073000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="2576" height="1426" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.0699523" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.07034976" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -320,7 +356,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.35124612" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.35112143" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -328,7 +364,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32714617" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32714617" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.32869297" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -349,23 +385,30 @@
     <entry file="file://$PROJECT_DIR$/Twitter_projekt_testiranje.iml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/TwitterTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="27" column="40" selection-start-line="27" selection-start-column="40" selection-end-line="27" selection-end-column="40" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
+        <state relative-caret-position="102">
+          <caret line="6" column="39" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/test-classes/TwitterTest.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="14" column="29" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/TwitterTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
