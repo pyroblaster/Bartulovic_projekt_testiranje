@@ -2,6 +2,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
@@ -54,7 +55,6 @@ public void setupTest() {
         WebElement sendTweetBox = webDriver.findElement((By.xpath("/html//div[@id='timeline']//form[@action='//upload.twitter.com/i/tweet/create_with_media.iframe']//div[@class='TweetBoxToolbar-tweetButton tweet-button']/button[@type='button']/span[@class='button-text tweeting-text']")));
         sendTweetBox.click(); //slanje teksta
         Thread.sleep(7500);
-        webDriver.quit();
     }
 
     @Test
@@ -78,7 +78,7 @@ public void setupTest() {
         WebElement sendTweetBox = webDriver.findElement((By.xpath("/html//div[@id='timeline']//form[@action='//upload.twitter.com/i/tweet/create_with_media.iframe']//div[@class='TweetBoxToolbar-tweetButton tweet-button']/button[@type='button']/span[@class='button-text tweeting-text']")));
         sendTweetBox.click(); //slanje ankete
         Thread.sleep(7500);
-        webDriver.quit();
+
     }
 
     @Test
@@ -91,7 +91,7 @@ public void setupTest() {
         WebElement logoutButton = webDriver.findElement(By.xpath("//li[@id='signout-button']/button[@role='menuitem']"));
         logoutButton.click(); //odjava korisnika
         Thread.sleep(7500);
-        webDriver.quit();
+
     }
 
     @Test
@@ -103,7 +103,7 @@ public void setupTest() {
         WebElement searchButton = webDriver.findElement(By.xpath("//form[@id='global-nav-search']//button[@type='submit']"));
         searchButton.click(); //pretrazivanje
         Thread.sleep(7500);
-        webDriver.quit();
+
     }
 
     @Test void testTweetsAndRepliesAndMedia() throws  InterruptedException {
@@ -115,7 +115,7 @@ public void setupTest() {
         WebElement media = webDriver.findElement(By.xpath("//*[@id=\"page-container\"]/div[2]/div/div/div[2]/div/div[2]/div[1]/div[2]/ul/li[3]"));
         media.click(); //prijelaz na multimedijalne twittove
         Thread.sleep(7500);
-        webDriver.quit();
+
     }
 
     @Test void testMessage() throws InterruptedException {
@@ -124,7 +124,7 @@ public void setupTest() {
         WebElement message = webDriver.findElement(By.xpath("//*[@id=\"global-actions\"]/li[3]/a"));
         message.click(); //prijelaz na poruke
         Thread.sleep(7500);
-        webDriver.quit();
+
     }
 
     @Test void testNotifications() throws  InterruptedException{
@@ -133,6 +133,11 @@ public void setupTest() {
         WebElement notifications = webDriver.findElement(By.xpath("//*[@id=\"global-actions\"]/li[2]/a"));
         notifications.click(); //prijelaz na obavjesti
         Thread.sleep(7500);
+
+    }
+    @AfterMethod
+    public void teardownTest() {
+
         webDriver.quit();
     }
 
